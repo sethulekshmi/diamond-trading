@@ -89,7 +89,7 @@ config.participants.users.dealerships[1].type = 'Dealership';
 config.participants.users.dealerships[1].user = 'Dennis';
 
 config.participants.users.dealerships[2] = {};
-config.participants.users.dealerships[2].company = 'Viewers Alfa Romeo';
+config.participants.users.dealerships[2].company = 'Alfa Romeo';
 config.participants.users.dealerships[2].type = 'Dealership';
 config.participants.users.dealerships[2].user = 'Delia';
 
@@ -127,7 +127,7 @@ config.participants.users.traders[2].user = 'Rahul';
 
 // Cutters
 config.participants.users.cutters[0] = {};
-config.participants.users.cutters[0].company = 'Cray Bros (London) Ltd';
+config.participants.users.cutters[0].company = 'Cray Bros London Ltd';
 config.participants.users.cutters[0].type = 'Cutter';
 config.participants.users.cutters[0].user = 'Sandy';
 
@@ -137,7 +137,7 @@ config.participants.users.cutters[1].type = 'Cutter';
 config.participants.users.cutters[1].user = 'Scott';
 
 config.participants.users.cutters[2] = {};
-config.participants.users.cutters[2].company = 'ScrapIt! UK';
+config.participants.users.cutters[2].company = 'ScrapIt';
 config.participants.users.cutters[2].type = 'Cutter';
 config.participants.users.cutters[2].user = 'Sid';
 
@@ -169,7 +169,7 @@ config.participants.users.customers[1].type = 'Customer';
 config.participants.users.customers[1].user = 'Scott';
 
 config.participants.users.customers[2] = {};
-config.participants.users.customers[2].user = 'Amardev';
+config.participants.users.customers[2].user = 'AmarDev';
 config.participants.users.customers[2].type = 'Customer';
 config.participants.users.customers[2].user = 'Sid';
 
