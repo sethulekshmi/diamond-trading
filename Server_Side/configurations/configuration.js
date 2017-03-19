@@ -108,10 +108,10 @@ config.users = [
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Viewers_laxmi_impex',
+        enrollmentID: 'Alfa_Romeo',
         attributes: [
             {name: 'role', value: 'dealership'},
-            {name: 'username', value: 'Viewers_laxmi_impex'}
+            {name: 'username', value: 'Alfa_Romeo'}
         ],
         registrar: {},
         roles: [],
@@ -191,17 +191,17 @@ config.users = [
         enrollmentID: 'Aston_Cutting_Centre',
         attributes: [
             {name: 'role', value: 'cutter'},
-            {name: 'username', value: 'Aston_Scrap_Centre'}
+            {name: 'username', value: 'Aston_Cutting_Centre'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'ScrapIt_UK',
+        enrollmentID: 'ScrapIt',
         attributes: [
             {name: 'role', value: 'cutter'},
-            {name: 'username', value: 'ScrapIt_UK'}
+            {name: 'username', value: 'ScrapIt'}
         ],
         registrar: {},
         roles: [],
