@@ -126,7 +126,7 @@ let participants_info = {
 	],
 	'Cutters': [
 		{
-			'name': 'Crayon_Bros_Ltd',
+			'name': 'Crayon_Bros_London_Ltd',
 			'identity': 'Cray_Bros_London_Ltd',
 			'password': 'BTaWHtHrCZry',
 			'address_line_1': '26 Electric Avenue',
