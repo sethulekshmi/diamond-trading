@@ -35,7 +35,7 @@ let registerUser = function(req, res) {
 		case 'Cutter':
 			numberAff = '0006';
 			break;
-		case 'Jewellery_maker':
+		case 'Jewellery Maker':
 			numberAff = '0007';
 			break;
 		case 'Customer':
@@ -138,7 +138,7 @@ function writeUserToFile(req, res, secret)
 			case 'Cutter':
 				userType='cutters';
 				break;
-			case 'Jewellery_maker':
+			case 'Jewellery Maker':
 				userType='jewellery_makers';
 				break;
 			case 'Customer':
