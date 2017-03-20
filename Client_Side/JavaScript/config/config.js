@@ -145,33 +145,33 @@ config.participants.users.cutters[2].user = 'Sid';
 config.participants.users.jewellery_makers[0] = {};
 config.participants.users.jewellery_makers[0].company = 'Adora';
 config.participants.users.jewellery_makers[0].type = 'Jewellery_maker';
-config.participants.users.jewellery_makers[0].user = 'Sandy';
+config.participants.users.jewellery_makers[0].user = 'Sani';
 
 config.participants.users.jewellery_makers[1] = {};
 config.participants.users.jewellery_makers[1].company = 'Tanishq';
 config.participants.users.jewellery_makers[1].type = 'Jewellery_maker';
-config.participants.users.jewellery_makers[1].user = 'Scott';
+config.participants.users.jewellery_makers[1].user = 'Sofy';
 
 config.participants.users.jewellery_makers[2] = {};
 config.participants.users.jewellery_makers[2].company = 'Kiah';
 config.participants.users.jewellery_makers[2].type = 'Jewellery_maker';
-config.participants.users.jewellery_makers[2].user = 'Sid';
+config.participants.users.jewellery_makers[2].user = 'Soumya';
 
 // Customers
 config.participants.users.customers[0] = {};
 config.participants.users.customers[0].user = 'Gaurav Singh';
 config.participants.users.customers[0].type = 'Customer';
-config.participants.users.customers[0].user = 'Sandy';
+config.participants.users.customers[0].user = 'Aparna';
 
 config.participants.users.customers[1] = {};
 config.participants.users.customers[1].user = 'Adwaith';
 config.participants.users.customers[1].type = 'Customer';
-config.participants.users.customers[1].user = 'Scott';
+config.participants.users.customers[1].user = 'Sethu';
 
 config.participants.users.customers[2] = {};
 config.participants.users.customers[2].user = 'AmarDev';
 config.participants.users.customers[2].type = 'Customer';
-config.participants.users.customers[2].user = 'Sid';
+config.participants.users.customers[2].user = 'Dhanendra';
 
 
 
