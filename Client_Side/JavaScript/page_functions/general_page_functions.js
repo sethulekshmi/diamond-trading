@@ -137,7 +137,7 @@ function errCreate(assetID)
 {
     $('#failHd span').html('Creation Failed');
     $('#failTransfer').show();
-    $('#failTxt').html('Failed to create car with assetID: '+assetID);
+    $('#failTxt').html('Failed to create diamond with assetID: '+assetID);
     $('#loader').hide();
     $('#loaderMessages').html('');
 }
