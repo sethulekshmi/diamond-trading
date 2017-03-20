@@ -144,17 +144,17 @@ config.participants.users.cutters[2].user = 'Sid';
 // Jewellery_makers
 config.participants.users.jewellery_makers[0] = {};
 config.participants.users.jewellery_makers[0].company = 'Adora';
-config.participants.users.jewellery_makers[0].type = 'Jewellery_maker';
+config.participants.users.jewellery_makers[0].type = 'Jewellery_Maker';
 config.participants.users.jewellery_makers[0].user = 'Sani';
 
 config.participants.users.jewellery_makers[1] = {};
 config.participants.users.jewellery_makers[1].company = 'Tanishq';
-config.participants.users.jewellery_makers[1].type = 'Jewellery_maker';
+config.participants.users.jewellery_makers[1].type = 'Jewellery_Maker';
 config.participants.users.jewellery_makers[1].user = 'Sofy';
 
 config.participants.users.jewellery_makers[2] = {};
 config.participants.users.jewellery_makers[2].company = 'Kiah';
-config.participants.users.jewellery_makers[2].type = 'Jewellery_maker';
+config.participants.users.jewellery_makers[2].type = 'Jewellery_Maker';
 config.participants.users.jewellery_makers[2].user = 'Soumya';
 
 // Customers
