@@ -152,15 +152,15 @@ function getTransactions(){
 						type = "Transfer";
 						function_name = "miner_to_distributor";
 					}
-					if(payload.indexOf("distributor_to_dealer") != -1)
+					if(payload.indexOf("distributor_to_dealership") != -1)
 					{
 						type = "Transfer";
-						function_name = "distributor_to_dealer";
+						function_name = "distributor_to_dealership";
 					}
-					if(payload.indexOf("dealer_to_buyer") != -1)
+					if(payload.indexOf("dealership_to_buyer") != -1)
 					{
 						type = "Transfer";
-						function_name = "dealer_to_buyer";
+						function_name = "dealership_to_buyer";
 					}
 					if(payload.indexOf("buyer_to_trader") != -1)
 					{
@@ -216,12 +216,12 @@ function getTransactions(){
 					{
 						type = "Update";
 						function_name = "update_colour";
-						update_type = "Colour";
+						update_type = "colour";
 					}
 					if(payload.indexOf("symmetry") != -1)
 					{
 						type = "symmetry";
-						function_name = "symmetry";
+						function_name = "update_symmetry";
 						update_type = "symmetry";
 					}
 					if(payload.indexOf("polish") != -1)
