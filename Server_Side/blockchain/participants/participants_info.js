@@ -124,7 +124,7 @@ let participants_info = {
 			'postcode': 'SO50 3QV'
 		}
 	],
-	'Cutters': [
+	'cutters': [
 		{
 			'name': 'Crayon_Bros_London_Ltd',
 			'identity': 'Cray_Bros_London_Ltd',
@@ -152,7 +152,7 @@ let participants_info = {
 			'postcode': 'SO29 9BL'
 		}
 ],
-'Jewellery_makers': [
+'jewellery_makers': [
 		{
 			'name': 'Adora',
 			'identity': 'Adora',
@@ -178,7 +178,7 @@ let participants_info = {
 			'postcode': 'SO29 9BL'
 
 }
-],		'Customers': [
+],		'customers': [
 		{
 			'name': 'Gaurav_Singh',
 			'identity': 'Gaurav_Singh',
