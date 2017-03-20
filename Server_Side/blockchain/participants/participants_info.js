@@ -176,9 +176,9 @@ let participants_info = {
 			'address_line_1': 'Mumbai',
 			'address_line_2': 'India',
 			'postcode': 'SO29 9BL'
-
-}
-],		'customers': [
+        }
+],		
+    'customers': [
 		{
 			'name': 'Gaurav_Singh',
 			'identity': 'Gaurav_Singh',
