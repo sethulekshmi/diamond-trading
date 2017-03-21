@@ -148,5 +148,5 @@ function loadUpdateAssets()
 			}
 		}
 	}
-	xhr.send();	
+	xhr.send()
 }
