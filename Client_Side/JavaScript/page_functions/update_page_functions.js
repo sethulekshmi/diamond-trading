@@ -7,7 +7,7 @@ $(document).ready(function(){
 	})
 
 	$(document).on('click', '.userHldr', function(){	
-		$('.founddiamonds').remove();
+		$('.foundDiamonds').remove();
 		$('#loaderMessages').html('0 assets')
 		$('#loader').show();
 		$('#fade').show();		
@@ -31,17 +31,17 @@ function showEditTbl(el)
 		$('#clarity').prop('readonly', false);
 		$('#clarity').css('cursor', 'text');
 	}
-	var clarity = $(el).siblings('.diamondclarity').html()
+	var clarity = $(el).siblings('.diamondClarity').html()
 	if(clarity == '&lt;<i>clarity</i>&gt;')
 	{
 		clarity = 0;
 	}
-	var diamondat = $(el).siblings('.diamonddiamondat').html()
+	var diamondat = $(el).siblings('.diamondDiamondat').html()
 	if(diamondat == '&lt;<i>diamondat</i>&gt;')
 	{
 		diamondat = 'undefined'
 	}
-	var cut = $(el).siblings('.diamondcut').html()
+	var cut = $(el).siblings('.diamondCut').html()
 	if(cut == '&lt;<i>cut</i>&gt;')
 	{
 		cut = 'undefined'
@@ -51,31 +51,12 @@ function showEditTbl(el)
 	{
 		colour = 'undefined'
 	}
-	var reg = $(el).siblings('.diamondDate').html()
+	var date = $(el).siblings('.diamondDate').html()
 	if(date == '&lt;<i>date</i>&gt;')
 	{
 		date = 'undefined'
 	}
-var symmetry = $(el).siblings('.diamondSymmetry').html()
-	if(symmetry == '&lt;<i>symmetry</i>&gt;')
-	{
-		symmetry= 'undefined'
-	}
-var polish = $(el).siblings('.diamondPolish').html()
-	if(polish == '&lt;<i>polish</i>&gt;')
-	{
-		polish = 'undefined'
-	}
-var timestamp = $(el).siblings('.diamondTimestamp').html()
-	if(timestamp == '&lt;<i>timestamp</i>&gt;')
-	{
-		timestamp = 'undefined'
-	}
-var JewelleryType = $(el).siblings('.diamondJewelleryType ').html()
-	if(JewelleryType  == '&lt;<i>JewelleryType </i>&gt;')
-	{
-		JewelleryType  = 'undefined'
-	}
+
 
 
 
@@ -85,22 +66,15 @@ var JewelleryType = $(el).siblings('.diamondJewelleryType ').html()
 	$('#cut').val(cut);
 	$('#colour').val(colour);
 	$('#date').val(date);
-$('#timestamp').val(timestamp);
-$('#symmetry').val(symmetry);
-$('#polish').val(polish);
-$('#JewelleryType').val(JewelleryType);
+
 
 
 	
-	$('#hidclarity').val(clarity);
-	$('#hiddiamondat').val(diamondat);
+	$('#hidClarity').val(clarity);
+	$('#hidDiamondat').val(diamondat);
 	$('#hidcut').val(cut);
 	$('#hidColour').val(colour);
-$('#hidsymmetry').val(symmetry);
-$('#hidpolish').val(polish);
-$('#hidJewelleryType').val(JewelleryType);
-$('#hidtimestamp').val(timestamp);
-	$('#hiddate').val(date.toUpperCase());
+    $('#hidDate').val(date);
 }
 
 function closeEditTbl()
@@ -166,20 +140,20 @@ function validate(el)
 		$('#errorRw').find('ul').append('<li>Colour cannot be reset to undefined</li>')
 		failed = true;
 	}
-	if($('#reg').val().trim() == '')
+	if($('#date').val().trim() == '')
 	{
-		$('#errorRw').find('ul').append('<li>Registration cannot be blank</li>')
+		$('#errorRw').find('ul').append('<li>Date cannot be blank</li>')
 		failed = true;
 	}
-	if($('#reg').val().trim().toLowerCase() == 'undefined' && $('#hidReg').val().trim().toLowerCase() != 'undefined')
+	if($('#date').val().trim().toLowerCase() == 'undefined' && $('#hidDate').val().trim().toLowerCase() != 'undefined')
 	{
-		$('#errorRw').find('ul').append('<li>Registration cannot be reset to undefined</li>')
+		$('#errorRw').find('ul').append('<li>Date cannot be reset to undefined</li>')
 		failed = true;
 	}
 	if(!failed)
 	{
 		$('#errorRw').hide();
-		updateAsset($('#clarity').val().trim(), $('#diamondat').val().trim(), $('#cut').val().trim(), $('#colour').val().trim(), $('#reg').val().trim().toUpperCase(), $('#assetID').val(), el)
+		updateAsset($('#clarity').val().trim(), $('#diamondat').val().trim(), $('#cut').val().trim(), $('#colour').val().trim(), $('#date').val().trim().toUpperCase(), $('#assetID').val(), el)
 	}
 	else
 	{
