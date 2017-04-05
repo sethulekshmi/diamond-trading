@@ -46,7 +46,7 @@ function loadAssets()
 					}
 					else
 					{
-						if(typeof obj.message == 'undefined' && obj.clarity > 0 && obj.diamondat.toLowerCase() != 'undefined' && obj.diamondat.trim() != '' && obj.cut.toLowerCase() != 'undefined' && obj.cut.trim() != '' && obj.Date.toLowerCase() != 'undefined' && obj.Date.trim() != '' && obj.colour.toLowerCase() != 'undefined' && obj.colour.trim() != '' && !obj.scrapped)
+						if(typeof obj.message == 'undefined' && obj.clarity > 0 && obj.diamondat.toLowerCase() != 'undefined' && obj.diamondat.trim() != '' && obj.cut.toLowerCase() != 'undefined' && obj.cut.trim() != '' && obj.date.toLowerCase() != 'undefined' && obj.date.trim() != '' && obj.colour.toLowerCase() != 'undefined' && obj.colour.trim() != '' && !obj.scrapped)
 						{
 							objects.push(obj)
 						}
@@ -144,7 +144,7 @@ function loadUpdateAssets()
 				if(data.cut.toLowerCase() == 'undefined' || data.cut.trim() == '') data.cut = '&lt;<i>cut</i>&gt;';
 				if(data.date.toLowerCase() == 'undefined' || data.date.trim() == '') data.date = '&lt;<i>date</i>&gt;';
 				if(data.colour.toLowerCase() == 'undefined' || data.colour.trim() == '') data.colour = '&lt;<i>colour</i>&gt;';
-				$('<tr class="founddiamonds" ><td class="smlBrk"></td><td class="editRw" ><span class="diamondID">'+data.assetID+'</span></td><td class="editRw" colspan="2" >[<span class="diamondclarity">'+data.clarity+'</span>] <span class="diamonddiamondat">'+data.diamondat+'</span> <span class="diamondcut">'+data.cut+'</span>, <span class="diamondColour">'+data.colour+'</span>, <span class="diamondDate">'+data.date+'</span><img src="Icons/Manufacturer/edit.svg" onclick="showEditTbl(this)" class="rtBtn" width="20" height="20" /></td><td class="smlBrk" ></td></tr>').insertAfter('#insAft');
+				$('<tr class="founddiamonds" ><td class="smlBrk"></td><td class="editRw" ><span class="diamondID">'+data.assetID+'</span></td><td class="editRw" colspan="2" >[<span class="diamondClarity">'+data.clarity+'</span>] <span class="diamondDiamondat">'+data.diamondat+'</span> <span class="diamondCut">'+data.cut+'</span>, <span class="diamondColour">'+data.colour+'</span>, <span class="diamondDate">'+data.date+'</span><img src="Icons/Manufacturer/edit.svg" onclick="showEditTbl(this)" class="rtBtn" width="20" height="20" /></td><td class="smlBrk" ></td></tr>').insertAfter('#insAft');
 			}
 		}
 	}
