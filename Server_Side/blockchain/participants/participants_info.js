@@ -34,7 +34,7 @@ let participants_info = {
 		},
 		{
 			'name': 'harshal diamonds',
-			'identity': 'harshal_diamond',
+			'identity': 'harshal_diamonds',
 			'password': 'nNRyjPKrSpUb',
 			'address_line_1': 'Mahidharpura',
 			'address_line_2': 'Surat',
