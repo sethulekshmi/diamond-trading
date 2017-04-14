@@ -130,7 +130,7 @@ function loadUpdateAssets()
 		}
 		$('#loaderMessages').html(objects.length + ' ' + plu);
 	}
-    console.log("hello")
+    console.log("hello");
 	xhr.onreadystatechange = function (){
 		if(xhr.readyState === 4)
 		{
