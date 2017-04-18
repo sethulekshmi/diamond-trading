@@ -149,5 +149,6 @@ function loadUpdateAssets()
 			}
 		}
 	}
+    console.log("sethu")
 	xhr.send()
 }
